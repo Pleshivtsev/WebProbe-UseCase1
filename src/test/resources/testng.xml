@@ -9,9 +9,4 @@
             <class name="interfaceTests.tme.TmeTests"/>
         </classes>
     </test>
-    <test name="Проверка фоновых задач">
-        <classes>
-            <class name="TmeJobStatus"/>
-        </classes>
-    </test>
 </suite>
