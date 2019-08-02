@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SAP-auto-tests" parallel="methods" thread-count="4" verbose="0">
+    <listeners>
+        <listener class-name="NgReporter"/>
+    </listeners>
+    <test name="Основные процессы TME">
+        <classes>
+            <class name="interfaceTests.tme.TmeTests"/>
+        </classes>
+    </test>
+    <test name="Проверка фоновых задач">
+        <classes>
+            <class name="TmeJobStatus"/>
+        </classes>
+    </test>
+</suite>
